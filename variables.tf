@@ -1,4 +1,10 @@
 
+variable "region" {
+  description = "Name of the region."
+  type        = string
+  default     = "us-east"
+}
+
 variable "resource_group_id" {
   description = "ID of the resource group."
   type        = string
