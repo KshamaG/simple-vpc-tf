@@ -1,5 +1,5 @@
 
 output "vpc_id" {
   description = "The ID of the vpc"
-  value       = vpc.id
+  value       = ibm_is_vpc.vpc.id
 }
